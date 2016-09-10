@@ -235,7 +235,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		</dependency>
     </dependencies>
 	<build>
-        <finalName>Basecamp</finalName>
+        <finalName>basecamp</finalName>
         
        <pluginManagement>
 		<plugins>
