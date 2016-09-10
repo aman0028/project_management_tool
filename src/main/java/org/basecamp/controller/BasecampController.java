@@ -14,9 +14,9 @@ import org.basecamp.util.BasecampUtil;
 import org.basecamp.util.HttpHeaderUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
@@ -43,9 +43,8 @@ public class BasecampController {
      */
 	@RequestMapping( value = "/event/notification", produces = "application/json; charset=utf-8" , method = RequestMethod.GET)
 	public @ResponseBody String getSubscriptionEventNotification(HttpServletRequest request,
-			@PathVariable(value = "url") String eventUrl)
+			@RequestParam(value = "url", required=true) String eventUrl)
 	{
-		//ArrayList
 		//TODO: user authentication should be in the filter
 		EventNotificationResponseDTO responseDTO = null;
 		
