@@ -16,5 +16,5 @@ Spring: 3.2.13.RELEASE
 Hibernate: 3.6.9.Final
 java: 1.7
 Mysql: 5.1.6
-Maven 
+Maven 3.0.3
 
