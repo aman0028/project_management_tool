@@ -11,10 +11,10 @@ API Reference:
 localhost:8080/event/notification?url={url}
 
 Instructions:
-Below are the libraries which were needed to setup this project:\n
-Spring: 3.2.13.RELEASE \n
-Hibernate: 3.6.9.Final \n
-java: 1.7 \n
-Mysql: 5.1.6 \n
+Below are the libraries which were needed to setup this project:
+Spring: 3.2.13.RELEASE
+Hibernate: 3.6.9.Final
+java: 1.7
+Mysql: 5.1.6
 Maven 
 
